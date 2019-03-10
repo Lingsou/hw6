@@ -1,0 +1,36 @@
+function setup() {
+	createCanvas(400, 400);
+let value = 0
+}
+
+function draw() {
+	background(0);
+	fill (200)
+	rect(150, 160, 90, 70); // base drum // red
+  noStroke();
+
+
+	fill(255);
+	stroke(5);
+	ellipse(230, 200, 50); // hanging tom // yellow
+
+	ellipse(160, 200, 50); // rack tom // light yellow
+	
+	ellipse(280, 245, 60); // floor tomm// orange
+
+	ellipse(120, 255, 70); // snare drum // green
+
+	ellipse(70, 230, 55); // high hat // purple
+
+	ellipse(100, 160, 70); // crash cymbal // blue
+
+	ellipse(280, 160, 70); // ride symbal // light blue
+	
+	
+	
+	
+
+
+
+
+}
